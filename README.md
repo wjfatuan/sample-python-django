@@ -1,8 +1,14 @@
-# Python: Getting Started
+# Python Sample
 
-A barebones Django app, which can easily be deployed to Heroku.
+[![CircleCI](https://circleci.com/gh/heroku/java-getting-started.svg?style=svg)](https://circleci.com/gh/heroku/java-getting-started)
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+A barebones Django app, which can easily be deployed to Heroku. This application is based on  the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out. You can access an online version of it in https://stark-retreat-94725.herokuapp.com/.
+
+## Course concepts
+
+This application has examples of different design patterns from the class.
+
+The original version of this sample project is implemented using plain Python, but this one is merged with the sample provided by Heroku. Navigate the source code to find the samples needed. 
 
 ## Running Locally
 

@@ -1,5 +1,6 @@
 # Python Sample
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/65d216e1600e4566a3fda6d6ad5c3464)](https://app.codacy.com/app/wilson.forero/sample-python-django?utm_source=github.com&utm_medium=referral&utm_content=wjfatuan/sample-python-django&utm_campaign=Badge_Grade_Dashboard)
 [![CircleCI](https://circleci.com/gh/heroku/java-getting-started.svg?style=svg)](https://circleci.com/gh/heroku/java-getting-started)
 
 A barebones Django app, which can easily be deployed to Heroku. This application is based on  the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out. You can access an online version of it in https://stark-retreat-94725.herokuapp.com/.

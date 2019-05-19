@@ -8,9 +8,9 @@ Django = "==2.2.1"
 django-heroku = "*"
 gunicorn = "*"
 codacy-coverage = "*"
+coverage = "==4.5.3"
 
 [requires]
 python_version = "3.6"
 
 [dev-packages]
-coverage = "==4.5.3"

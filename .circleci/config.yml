@@ -51,8 +51,11 @@ jobs:
           name: run tests
           command: |
             pipenv run python3 manage.py collectstatic --noinput
-            pipenv run python3 manage.py test
+            pipenv run coverage run manage.py test
+            pipenv run coverage xml
 
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
+      - run: 
+          name: Check Scripts
+          command: |
+            pipenv run python-codacy-coverage -r coverage.xml
+            pipenv run coverage erase

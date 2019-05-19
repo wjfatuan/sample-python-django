@@ -35,6 +35,7 @@ jobs:
           name: install dependencies
           command: |
             pipenv install
+            pipenv graph
 
       - save_cache:
           paths:

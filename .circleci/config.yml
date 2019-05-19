@@ -21,6 +21,7 @@ jobs:
       - checkout  # checkout source code to working directory
       - run:
           command: |  # use pipenv to install dependencies
+            sudo pip install --upgrade pip
             sudo pip install pipenv
 
       # Download and cache dependencies

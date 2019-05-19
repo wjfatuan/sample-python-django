@@ -18,7 +18,10 @@ jobs:
     working_directory: ~/sample-python-django
 
     steps:
-      - checkout
+      - checkout  # checkout source code to working directory
+      - run:
+          command: |  # use pipenv to install dependencies
+            sudo pip install pipenv
 
       # Download and cache dependencies
       - restore_cache:

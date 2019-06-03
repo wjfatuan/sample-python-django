@@ -11,11 +11,11 @@ __all__ = [
 
 
 class LinkHeaderPageNumberPagination(PageNumberPagination):
-    """ 
+    """
     Inform the user of pagination links via response headers, similar to
     what's described in
     https://developer.github.com/guides/traversing-with-pagination/.
-    Taken from https://github.com/tbeadle/django-rest-framework-link-header-pagination 
+    Taken from https://github.com/tbeadle/django-rest-framework-link-header-pagination
     """
     def get_paginated_response(self, data):
         next_url = self.get_next_link()

@@ -6,16 +6,16 @@ from polls.models import Question, Choice
 class QuestionViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows Questions to be viewed or edited.
-    
+
     list:
     Return a list of all the questions.
-    
-    retrieve: 
+
+    retrieve:
     Return an specific question.
-    
+
     create:
     Creates a new question.
-    
+
     destroy:
     Deletes an specific question.
 

@@ -8,6 +8,11 @@ Django = "==2.2.1"
 django-heroku = "*"
 gunicorn = "*"
 codacy-coverage = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+coreapi = "*"
+django-rest-swagger = "*"
 
 [requires]
 python_version = "3.6"

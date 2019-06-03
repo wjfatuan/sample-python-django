@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hello'
+    'rest_framework',
+    'rest_framework_swagger',
+    'hello',
+    'polls',
+    'greetings'
 ]
 
 MIDDLEWARE = [
@@ -121,6 +125,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = 'staticfiles/'
+
+# Django REST framework configuration
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'utils.pagination.LinkHeaderLimitOffsetPagination',
+    'PAGE_SIZE': 10
+}
+
+# Heroku specifics
 
 if 'HEROKU' in os.environ:
     import django_heroku

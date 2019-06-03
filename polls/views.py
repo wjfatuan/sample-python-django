@@ -1,5 +1,3 @@
-from django.shortcuts import render
-
 from rest_framework import viewsets
 from polls.serializers import QuestionSerializer, ChoiceSerializer
 from polls.models import Question, Choice

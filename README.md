@@ -15,7 +15,7 @@ The original version of this sample project is implemented using plain Python, b
 
 Make sure you have Python [installed properly](http://install.python-guide.org). Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
 
-```sh
+```zsh
 $ git clone https://github.com/wjfatuan/sample-python-django.git
 $ cd sample-python-django
 
@@ -33,7 +33,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-```sh
+```zsh
 $ heroku create
 $ git push heroku master
 
@@ -48,4 +48,4 @@ or
 
 For more information about using Python on Heroku, see these Dev Center articles:
 
--  [Python on Heroku](https://devcenter.heroku.com/categories/python)
+-    [Python on Heroku](https://devcenter.heroku.com/categories/python)
